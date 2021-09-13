@@ -4,15 +4,15 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 // With JSDoc @type annotations, IDEs can provide config autocompletion
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 (module.exports = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Ryan Cook\'s Web Lounge',
+  tagline: 'Livin\' life hard',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'ryanmatcook', // Usually your GitHub org/user name.
+  projectName: 'mrrmc-blog', // Usually your repo name.
 
   presets: [
     [
@@ -41,7 +41,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'Ryan Cook\'s Web Lounge',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -51,11 +51,11 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Paragliding Blogs',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/programming blogs', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/RyanMatCook/mrrmc-site',
             label: 'GitHub',
             position: 'right',
           },
@@ -65,7 +65,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Paragliding',
             items: [
               {
                 label: 'Tutorial',
@@ -74,24 +74,24 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             ],
           },
           {
-            title: 'Community',
+            title: 'Find Me',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'LinkedIn',
+                href: 'https://www.linkedin.com/in/ryan-matthew-cook-931007/',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'YouTube',
+                href: 'https://www.youtube.com/channel/UCjSHbe0_L0q2rbQ9KwFchjQ',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'Instagram',
+                href: 'https://www.instagram.com/mr.rmcook/',
               },
             ],
           },
           {
-            title: 'More',
+            title: 'Programming',
             items: [
               {
                 label: 'Blog',
@@ -99,12 +99,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/RyanMatCook/mrrmc-site',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Ryan\'s Lounge, Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
