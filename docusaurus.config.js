@@ -13,7 +13,26 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   favicon: 'img/favicon.ico',
   organizationName: 'ryanmatcook', // Usually your GitHub org/user name.
   projectName: 'mrrmc-blog', // Usually your repo name.
-
+  plugins: [
+    [
+      '@docusaurus/plugin-content-blog',
+      {
+        /**
+         * Required for any multi-instance plugin
+         */
+        id: 'blog-paragliding',
+        /**
+         * URL route for the blog section of your site.
+         * *DO NOT* include a trailing slash.
+         */
+        routeBasePath: 'blog-paragliding',
+        /**
+         * Path to data on filesystem relative to site dir.
+         */
+        path: './blog-paragliding',
+      },
+    ],
+  ],
   presets: [
     [
       '@docusaurus/preset-classic',
@@ -22,13 +41,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/edit/main/website/',
+          editUrl: 'https://github.com/RyanMatCook/mrrmc-site',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/main/website/blog/',
+            'https://github.com/RyanMatCook/mrrmc-site',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -47,13 +66,14 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           src: 'img/logo.svg',
         },
         items: [
-          {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Paragliding Blogs',
-          },
-          {to: '/programming blogs', label: 'Blog', position: 'left'},
+          // {
+          //   type: 'doc',
+          //   docId: 'intro',
+          //   position: 'left',
+          //   label: 'Paragliding Blogs',
+          // },
+          {to: '/blog', label: 'Programming', position: 'left'},
+          {to: '/blog-paragliding', label: 'Paragliding', position: 'left'},
           {
             href: 'https://github.com/RyanMatCook/mrrmc-site',
             label: 'GitHub',
