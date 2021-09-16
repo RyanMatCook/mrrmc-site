@@ -2,6 +2,10 @@
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
+CI/CD status:
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e4dcb0b3-ad59-44c9-843a-3a88fc3f6ee2/deploy-status)](https://app.netlify.com/sites/ryan-cook-blog/deploys)
+
 ### Installation
 
 ```
