@@ -9,7 +9,7 @@ const FeatureList = [
     description: (
       <>
         I'm a software engineer with {new Date().getFullYear() - 2015} year's of experience. My primary skillset includes C# and React, 
-        with most of my time being spend on enterprise backend services.
+        with most of my time being spent on enterprise backend services.
       </>
     ),
   },
