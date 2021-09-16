@@ -10,7 +10,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   baseUrl: '/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'https://yt3.ggpht.com/yti/APfAmoHdUTJSdpnCr-Fwmy6VyoivHcnvcc33AzHSjlm-rA=s88-c-k-c0x00ffffff-no-rj-mo',
   organizationName: 'ryanmatcook', // Usually your GitHub org/user name.
   projectName: 'mrrmc-blog', // Usually your repo name.
   plugins: [
@@ -63,7 +63,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         title: 'Ryan Cook\'s Web Lounge',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'https://yt3.ggpht.com/yti/APfAmoHdUTJSdpnCr-Fwmy6VyoivHcnvcc33AzHSjlm-rA=s88-c-k-c0x00ffffff-no-rj-mo',
         },
         items: [
           // {
