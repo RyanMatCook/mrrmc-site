@@ -11,6 +11,8 @@ In this blog, we'll setup a Luno Trading bot.
 
 The intention is to create a C# worker that will call the Luno Trading API using Basic Authentication.
 
+<!--truncate-->
+
 # Setup a repo
 
 Go to the file location where you would like to create your repo and make a folder.
