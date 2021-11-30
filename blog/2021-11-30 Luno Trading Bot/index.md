@@ -1,11 +1,11 @@
 ---
-slug: luno trading - bot setup and authentication
-title: Luno Trading - Bot Setup and Authentication
+slug: luno automated trading - bot setup and authentication
+title: Luno Automated Trading - Bot Setup and Authentication
 authors: [ryan]
 # tags: [facebook, hello, docusaurus]
 ---
 
-# Luno Trading Bot Setup
+# Luno Automated Trading - Bot Setup and Authentication
 
 In this blog, we'll setup a Luno Trading bot.
 
