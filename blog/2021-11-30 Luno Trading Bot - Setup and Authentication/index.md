@@ -204,9 +204,18 @@ public Client(System.Net.Http.HttpClient httpClient, string key, string secret)
 }
 ```
 
-Now in the worker, instantiate the client and pass it the key and secret you saved in your appsettings.json earlier. Your worker Execute function should look like the following:
+Now in the worker, instantiate the client and pass it the key and secret you saved in your appsettings.json earlier. Your worker class body should look like the following:
 
 ```
+private readonly ILogger<Worker> _logger;
+private readonly IConfiguration _config;
+
+public Worker(ILogger<Worker> logger, IConfiguration config)
+{
+    _logger = logger;
+    _config = config;
+}
+
 protected override async Task ExecuteAsync(CancellationToken stoppingToken)
 {
     while (!stoppingToken.IsCancellationRequested)
